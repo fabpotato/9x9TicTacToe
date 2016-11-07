@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="TicTacToe.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TicTacToe"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="423" Margin="10,116,0,0" VerticalAlignment="Top" Width="380" Source="Assets/13498137761170088994Blank%20Tic%20Tack%20Toe_svg_hi.png"/>
+        
+        <Image Name="Ax" Visibility="Collapsed" Margin="22,126,269,403" Source="Assets/cross.png"/>
+        <Image Name="Ao" Visibility="Collapsed" Margin="22,126,269,403" Source="Assets/GlobeCircle copy.png"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="22,116,0,0" VerticalAlignment="Top" Height="130" Click="Button_Click"/>
+
+    </Grid>
+</Page>
